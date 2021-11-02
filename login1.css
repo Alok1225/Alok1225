@@ -1,0 +1,77 @@
+.container {
+    height: 20rem;
+    width: 50rem;
+    margin-top: 2rem;
+    margin-left: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F0F2F5;
+}
+
+.content1 {
+    height: 20rem;
+    width: 25rem;
+    text-align: center;
+    margin-top: 3rem;
+    display: block;
+    margin-left: 3rem;
+}
+
+h1 {
+    font-size: 3rem;
+    height: 1.9rem;
+    color: #1676F2;
+    text-align: justify;
+    font-weight: bolder!important;
+    font-family: -webkit-pictograph;
+}
+
+h5 {
+    height: 1.5rem;
+    width: 10rem;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    display: flex;
+    margin: auto;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+input {
+    height: 1.5rem;
+    width: 100%;
+    margin-bottom: 12px;
+    border-radius: 5px;
+    text-align: center;
+    border: .5px solid gray;
+    /* box-shadow: 4px 4px 5px 0px gray; */
+}
+
+input:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.content2 {
+    height: 12rem;
+    width: 28%;
+    border-radius: 4px;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    padding: 29px;
+    background-color: #FFFFFF;
+    box-shadow: 10px 10px 5px 0px gray;
+}
+
+#create {
+    background-color: green;
+}
+
+#sub {
+    background-color: blue;
+}
